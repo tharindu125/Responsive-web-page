@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import SignUp from './SignUp';
 import Main from './Main'
+import Login from './Login';
 
 export default function Navbar() {
   return (
@@ -21,11 +22,11 @@ export default function Navbar() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
 
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="./SignUp.js">Sign UP <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href=".#">Log In</a>
+                    <a class="nav-link" href="./Login.js">Log In</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href=".#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -54,7 +55,7 @@ export default function Navbar() {
         <Routes>
         <Route path="/" element={<Main/> } />
         <Route path="/SignUp.js" element={ <SignUp/> } />
-        {/* <Route path="contact" element={ < } /> */}
+        <Route path="/Login.js" element={ <Login/> } />
         </Routes>
     
     </div>
