@@ -9,7 +9,7 @@
  }
 
  /* -----common----- */
- body{
+ /* body{
     width: 100%;
     height: 100vh;
     background-color: #2cec6c;
@@ -25,21 +25,21 @@
     height: 100%;
     display: flex;
     overflow: hidden;
- }
+ } */
 
  /* -----slide----- */
- .slider .slides .slide{
+ /* .slider .slides .slide{
     position: absolute;
     width: 100%;
     height: 100%;
     /* opacity: 0; */
-    display: flex;
-    transition: all 0.5s ease-in;
- }
+    /* display: flex;
+    transition: all 0.5s ease-in; */
+ /* } */
 
- .slides .slider .curr{
+ /* .slides .slider .curr{
       opacity: 1;
- }
+ } */ 
 
  /* ---overlay---*/
  /* .slider .slides .slide::after{
