@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../Style/Style.css'
 
 export default function main() {
   return (
@@ -47,6 +48,59 @@ export default function main() {
                 <span class="sr-only">Next</span>
             </a>
         </div>
+
+        <hr className='hr' />
+
+    {/*---Row header---*/}
+        <div className='row'>
+            <div className='col-12'>
+                <h1 className='text-center'> Briefly Description About Sports</h1>
+                <p className='text-center lead'>Somthing More...</p>
+            </div>
+        </div>
+    
+        <div className='row'>
+        {/*----Sport One---*/}
+            <div className='col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3'>
+                <p className='text-center lead'>Sport One</p>
+                <img src='cricket.jpg' alt='' className='mx-auto d-block img-fluid'/>
+                <p className='text=center lead'>Bootstraps form controls expand on our Rebooted form styles with classes. Use these classes to opt into their customized displays for a more consistent rendering across browsers and devices.</p>
+            </div>
+        {/*----Sport Two---*/}
+            <div className='col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3'>
+                <p className='text-center lead'>Sport Two</p>
+                <img src='cricket.jpg' alt='' className='mx-auto d-block img-fluid'/>
+                <p className='text=center lead'>Bootstraps form controls expand on our Rebooted form styles with classes. Use these classes to opt into their customized displays for a more consistent rendering across browsers and devices.</p>
+            </div>
+        {/*----Sport Three---*/}
+            <div className='col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3'>
+                <p className='text-center lead'>Sport Three</p>
+                <img src='cricket.jpg' alt='' className='mx-auto d-block img-fluid'/>
+                <p className='text=center lead'>Bootstraps form controls expand on our Rebooted form styles with classes. Use these classes to opt into their customized displays for a more consistent rendering across browsers and devices.</p>
+            </div>
+        {/*----Sport Four---*/}
+            <div className='col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3'>
+                <p className='text-center lead'>Sport Four</p>
+                <img src='cricket.jpg' alt='' className='mx-auto d-block img-fluid'/>
+                <p className='text=center lead'>Bootstraps form controls expand on our Rebooted form styles with classes. Use these classes to opt into their customized displays for a more consistent rendering across browsers and devices.</p>
+            </div>
+        {/*----Sport Five---*/}
+            <div className='col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3'>
+                <p className='text-center lead'>Sport Five</p>
+                <img src='cricket.jpg' alt='' className='mx-auto d-block img-fluid'/>
+                <p className='text=center lead'>Bootstraps form controls expand on our Rebooted form styles with classes. Use these classes to opt into their customized displays for a more consistent rendering across browsers and devices.</p>
+            </div>
+        {/*----Sport Six---*/}
+            <div className='col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3'>
+                <p className='text-center lead'>Sport Six</p>
+                <img src='cricket.jpg' alt='' className='mx-auto d-block img-fluid'/>
+                <p className='text=center lead'>Bootstraps form controls expand on our Rebooted form styles with classes. Use these classes to opt into their customized displays for a more consistent rendering across browsers and devices.</p>
+            </div>
+
+        </div>
+
+       
     </div>
   )
 }
+ 

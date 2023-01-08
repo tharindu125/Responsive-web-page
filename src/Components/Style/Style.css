@@ -10,7 +10,11 @@
 
  /* -----common----- */
   body{
-    background-color: #c6d5d4;
+    /* background-color: #c6d5d4; */
+ }
+
+ .hr{
+   background-color: black;
  }
 
  /*input[type="radio"]{
