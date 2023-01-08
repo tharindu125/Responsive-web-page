@@ -9,11 +9,11 @@ export default function Navbar() {
     <Router>
     <div>
     
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="./">
             <img src="logo.png" width="60" height="35" alt=""/>
         </a>
-        <a class="navbar-brand" href="./">Navbar</a>
+        <a class="navbar-brand" href="./">Sport HUB</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
