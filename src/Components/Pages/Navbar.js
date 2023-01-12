@@ -11,7 +11,7 @@ export default function Navbar() {
     
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="./">
-            <img src="logo.png" width="60" height="35" alt=""/>
+            <img src="logo.png" width="100" height="35" alt=""/>
         </a>
         <a class="navbar-brand" href="./">Sport HUB</a>
 
