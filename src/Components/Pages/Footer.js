@@ -10,6 +10,8 @@ export default function Footer() {
             
             <h1>Tharindu Ranaweera</h1>
 
+            <h2>SportsAp</h2>
+
         </nav>
     </div>
   )
