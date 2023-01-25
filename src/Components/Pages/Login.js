@@ -40,7 +40,7 @@ export default function Login() {
           </div>
 
           <div className='col-6'>
-            <img src='login.png' alt=''  style={{width:'600px', height:'600px'}}/>
+            <img src='login.png' alt='' style={{width:'600px', height:'600px'}}/>
             
           </div>
 
