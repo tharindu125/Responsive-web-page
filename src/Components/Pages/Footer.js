@@ -5,12 +5,14 @@ export default function Footer() {
     <div>
         <nav className='navbar navbar-expand-lg bg-primary'>
             <div class="navbar-brand" >
-                <img src="logo.png" width= "60" height= "35" alt=""/>
+                <img src="logo.png" width= "80" height= "35" alt=""/>
             </div>
-            <img src='logo.png' alt='' style={{width:'600px', height:'600px'}}/>
-            <h1>Tharindu Ranaweera</h1>
+            
+            <h3>Contact us : </h3>
 
-            <h2>SportsAp</h2>
+            <h5> +94766008863</h5>
+
+            <h3> E-mail : nawanjanaenda@gmail.com</h3>
 
         </nav>
     </div>
